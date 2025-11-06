@@ -284,56 +284,168 @@
 <body>
   <nav>
     <div style="display:flex;align-items:center;gap:18px">
-      <img src="imagens/logo.png" alt="Logo TCJJ" class="logo">
+      <img src="" alt="" class="">
     </div>
 
-    <button class="menu-toggle" id="menu-toggle">☰</button>
-
-    <ul id="menu">
+    <ul>
       <li><a href="index.html">HOME</a></li>
       <li><a href="sobre.html" class="active">SOBRE A TCJJ</a></li>
       <li><a href="kids.html">JIU-JITSU KIDS</a></li>
-      <li><a href="defesa.html">DEFESA PESSOAL</a></li>
-      <li><a href="contato.html">CONTATO!</a></li>
+      <li><a href="defesa-pessoal.html">DEFESA PESSOAL</a></li>
+      <li><a href="#contato">CONTATO</a></li>
     </ul>
   </nav>
 
-  <header class="hero">
+  <!-- HERO -->
+ <header class="hero">
     <div class="hero-inner">
-      <h1>Técnica, Respeito e Superação</h1>
-      <p>Conheça a história e os valores que fizeram da Tio Chico Jiu-Jitsu uma referência em formação e superação pessoal.</p>
-      <div class="hero-cta">
-        <a href="#sobre" class="btn btn-primary">Conheça a Academia</a>
-        <a href="https://wa.me/5513974077972" target="_blank" class="btn btn-whatsapp">WhatsApp</a>
+      <div class="hero-text">
+        <h1>Técnica ,Respeito e superação</h1>
+        <p>Conheça a história e os valores que fizeram da Tio Chico Jiu-Jitsu uma referência em formação e superação pessoal.</p>
+        <div class="hero-cta">
+          <a href="#sobre" class="btn btn-primary">Conheça a Academia</a>
+          <a href="https://wa.me/5513974077972" target="_blank" class="btn btn-whatsapp">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+        </div>
       </div>
     </div>
   </header>
 
-  <!-- demais seções do seu HTML permanecem as mesmas -->
+  <!-- HISTÓRIA -->
+  <section class="light fade-up">
+    <div class="container grid-2">
+      <div>
+        <h2 class="section-title">Nossa História</h2>
+        <p>A <strong>Tio Chico Jiu-Jitsu</strong> nasceu com o propósito de formar pessoas mais fortes no corpo, na mente e no caráter. 
+        Ao longo dos anos, consolidamos um método que une a tradição do Jiu-Jitsu com uma visão moderna de aprendizado e desenvolvimento humano.</p>
 
-  <footer>
-    <p>© <strong>TCJJ - Tio Chico Jiu-Jitsu</strong> — Todos os direitos reservados.</p>
-    <p>📍 Rua Comendador Freixo, 59 - Vila Valença - São Vicente/SP<br>📞 (13) 9 7407-7972<br>✉️ <a href="mailto:equipetcjj@hotmail.com">equipetcjj@hotmail.com</a></p>
-  </footer>
+        <p>Nosso mestre, conhecido como <strong>Tio Chico</strong>, carrega décadas de experiência e títulos, mas principalmente uma missão: 
+        transmitir o verdadeiro espírito do Jiu-Jitsu  respeito, disciplina, técnica e superação.</p>
+      </div>
+
+      <div>
+        <img src="imagens/tio chico.png" alt="Mestre Tio Chico durante treino">
+      </div>
+    </div>
+  </section>
+
+  <!-- FILOSOFIA -->
+  <section class="fade-up">
+    <div class="grid-2 centralizado">
+       <div>
+        <h2 class="section-title">Nossa Filosofia</h2>
+        <p>O Jiu-Jitsu é mais do que um esporte, é uma ferramenta de transformação. Na TCJJ, acreditamos que cada aluno 
+        tem um potencial único, e nosso papel é guiá-lo para alcançar seu melhor dentro e fora do tatame.</p>
+
+        <p>Seguimos uma metodologia que equilibra técnica, preparo físico e mental, com turmas adaptadas para todas as idades 
+        e níveis. Respeitamos o ritmo individual, sempre buscando evolução contínua e consciência corporal.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAMPEÕES PELO MUNDO (CARROSSEL) -->
+  <section class="light fade-up">
+    <div class="container">
+      <h2 class="section-title">Nossos Campeões pelo Mundo</h2>
+      <p style="text-align:center; max-width:720px; margin:0 auto 40px;">
+        A TCJJ ultrapassa fronteiras. Muitos dos nossos alunos levam o nome da academia para o mundo,
+        conquistando títulos, ensinando Jiu-Jitsu em outros países e inspirando novas gerações.
+      </p>
+
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="imagens/micaela.png" alt="Aluno da TCJJ competindo">
+          <img src="imagens/felipe.jpg" alt="Aluna da TCJJ no exterior">
+          <img src="imagens/campeao3.jpg" alt="Aluno TCJJ com medalha">
+          <img src="imagens/campeao4.jpg" alt="Treino internacional TCJJ">
+        </div>
+        <button class="carousel-btn prev">&#10094;</button>
+        <button class="carousel-btn next">&#10095;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- EQUIPE -->
+  <section class="fade-up">
+    <div class="container">
+      <h2 class="section-title">Nossa Equipe</h2>
+      <p style="text-align:center; max-width:720px; margin:0 auto 40px;">
+        Formada por professores qualificados, nossa equipe é unida pela paixão de ensinar e pela missão de inspirar.
+        Cada instrutor representa os valores que moldam a TCJJ: <strong>honra, técnica e dedicação</strong>.
+      </p>
+<div class="team-grid">
+  <div class="team-card">
+    <img src="imagens/chico.png" alt="Mestre Tio Chico">
+    <h3>Prof. Carlos “Tio Chico”</h3>
+    <p>Faixa Preta 4º Grau • Fundador</p>
+  </div>
+  <div class="team-card">
+    <img src="imagens/prof2.jpg" alt="Instrutora Ana Souza">
+    <h3>Profª Ana Souza</h3>
+    <p>Faixa Preta 1º Grau • Jiu-Jitsu Kids</p>
+  </div>
+  <div class="team-card">
+    <img src="imagens/prof3.jpg" alt="Instrutor Rafael Mendes">
+    <h3>Prof. Rafael Mendes</h3>
+    <p>Faixa Marrom • Defesa Pessoal</p>
+  </div>
+</div>
+
+     
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="fade-up" style="text-align:center; padding:80px 0;">
+    <div class="container">
+      <h2 style="text-transform:uppercase; font-weight:800; letter-spacing:1px;">Venha Fazer Parte da Nossa História</h2>
+      <p style="max-width:600px; margin:12px auto 24px; color:var(--muted);">Agende uma visita e viva na prática o que é treinar em uma academia que valoriza técnica, disciplina e evolução.</p>
+      <a href="https://wa.me/SEUNUMERODOTELEFONE?text=Olá!%20Gostaria%20de%20conhecer%20a%20Tio%20Chico%20Jiu-Jitsu!" class="btn btn-primary" target="_blank">Agendar Visita</a>
+    </div>
+  </section>
+
+ <footer>
+  <p>© <strong>TCJJ - Tio Chico Jiu-Jitsu</strong> — Todos os direitos reservados.</p>
+  <p>
+    📍 Rua Comendador Freixo, 59 - Vila Valença - São Vicente/SP<br>
+    📞 (13) 9 7407-7972<br>
+    ✉️ <a href="mailto:equipetcjj@hotmail.com">equipetcjj@hotmail.com</a>
+  </p>
+</footer>
+
 
   <script>
-    // menu responsivo
-    const toggle = document.getElementById('menu-toggle');
-    const menu = document.getElementById('menu');
-    toggle.addEventListener('click', ()=> menu.classList.toggle('show'));
+    // Animação suave ao rolar
+    (function(){
+      const io = new IntersectionObserver(entries=>{
+        entries.forEach(e=>{
+          if(e.isIntersecting){
+            e.target.classList.add('in-view');
+            io.unobserve(e.target);
+          }
+        });
+      }, {threshold:0.12});
+      document.querySelectorAll('.fade-up').forEach(el=>io.observe(el));
+    })();
 
-    // carrossel simples
+    // ====== CARROSSEL ======
     const track = document.querySelector('.carousel-track');
-    if(track){
-      const slides = Array.from(track.children);
-      const nextBtn = document.querySelector('.carousel-btn.next');
-      const prevBtn = document.querySelector('.carousel-btn.prev');
-      let index = 0;
-      function showSlide(i){index=(i+slides.length)%slides.length;track.style.transform=`translateX(-${index*100}%)`;}
-      nextBtn?.addEventListener('click',()=>showSlide(index+1));
-      prevBtn?.addEventListener('click',()=>showSlide(index-1));
-      setInterval(()=>showSlide(index+1),5000);
+    const slides = Array.from(track.children);
+    const nextBtn = document.querySelector('.carousel-btn.next');
+    const prevBtn = document.querySelector('.carousel-btn.prev');
+    let index = 0;
+
+    function showSlide(i) {
+      index = (i + slides.length) % slides.length;
+      track.style.transform = `translateX(-${index * 100}%)`;
     }
+
+    nextBtn.addEventListener('click', ()=> showSlide(index + 1));
+    prevBtn.addEventListener('click', ()=> showSlide(index - 1));
+
+    // autoplay
+    setInterval(()=> showSlide(index + 1), 5000);
   </script>
 </body>
 </html>
